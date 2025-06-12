@@ -1,5 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa"
-import logo from "../assets/raviKumarLogo.webp"
+import logo from "../assets/yashdeshpandelogo.png"
 import { FaSquareXTwitter } from "react-icons/fa6"
 
 const Navbar = () => {
@@ -18,21 +18,21 @@ const Navbar = () => {
                     <FaLinkedin />
                 </a>
 
-                <a href="https://www.linkedin.com/in/yashdeshpande108/"
+                <a href="https://github.com/yashsdeshpande"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Github">
                     <FaGithub />
                 </a>
                 
-                <a href="https://www.linkedin.com/in/yashdeshpande108/"
+                <a href="https://www.instagram.com/yash_agasti/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram">
                     <FaInstagram />
                 </a>
 
-                <a href="https://www.linkedin.com/in/yashdeshpande108/"
+                <a href="https://x.com/yash_agasti"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Twitter">

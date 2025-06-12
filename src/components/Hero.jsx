@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp"
+import profilePic from "../assets/yashdeshpandeprofile1.jpg"
 import { HERO_CONTENT } from "../constants"
 import { motion } from "framer-motion"
 
@@ -30,7 +30,7 @@ const Hero = () => {
           <div className="w-full lg:w-1/2">
           <div className="flex justify-center lg:p-8">
             <motion.img
-             src={profilePic} alt="Ravi Kumar" className="border border-stone-900 rounded-3xl"
+             src={profilePic} alt="Yash Deshpander" className="border border-stone-900 rounded-3xl"
              width={650} height={650}
              initial={{ x: 100, opacity: 0}}
              animate={{x: 0, opacity: 1}}
@@ -45,7 +45,7 @@ const Hero = () => {
            className="flex flex-col items-center lg:items-start mt-10">
             <motion.h2 
             variants={childVariants}
-             className="pb-2 text-4xl tracking-tighter lg:text-8xl">Jack Ryan</motion.h2>
+             className="pb-2 text-4xl tracking-tighter lg:text-8xl">Yash Deshpande</motion.h2>
             <motion.span
             variants={childVariants}
              className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
